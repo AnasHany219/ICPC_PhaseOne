@@ -5,7 +5,8 @@ using namespace std;
 // such that they add up to a specific target.
 int main(){
     int arr[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
-    int size = sizeof(arr)/sizeof(arr[0]), target = 15;
+    int size = sizeof(arr)/sizeof(arr[0]);
+    int target = 15;
     
     for(auto it : arr)
         cout << it << ' ';
