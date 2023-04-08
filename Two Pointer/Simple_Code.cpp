@@ -1,17 +1,17 @@
 #include <iostream>
 
 using namespace std;
-// U have a sorted array and need to find two numbers 
+// U have a sorted array and need to find two numbers
 // such that they add up to a specific target.
 int main(){
     int arr[] = {0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     int size = sizeof(arr)/sizeof(arr[0]);
     int target = 15;
-    
+
     for(auto it : arr)
         cout << it << ' ';
-    cout << '\n';
-    
+    cout << '\n' << "The Target is " << target << '\n';
+
     int l = 0, r = size-1;
     while(l <= r){
         if(arr[l] + arr[r] == target){
