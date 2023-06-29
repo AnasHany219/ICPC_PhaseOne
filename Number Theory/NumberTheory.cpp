@@ -48,7 +48,7 @@ bool is_Prime(int n){
 }
 
 bool isPrime[N];
-void seive(){ // O(N) -> O(N*log(log(N)))
+void sieve(){ // O(N) -> O(N*log(log(N)))
     fill(isPrime, isPrime+N, true);
     isPrime[0] = isPrime[1] = false;
 
@@ -96,7 +96,7 @@ int main(){
 
     cout << (is_Prime(37) == 1? "Prime" : "Not") << '\n';
 
-    seive();
+    sieve();
     cout << (isPrime[37] == 1? "Prime" : "Not") << '\n';
 
     printVector(getPrimeFactors(26));
