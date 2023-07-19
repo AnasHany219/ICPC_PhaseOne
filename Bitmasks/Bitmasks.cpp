@@ -48,6 +48,7 @@ int main(){
 
     // The bitwise XOR (^)
     // Constant time optimization
+    // 0 ^ bit = bit
     cout << (5 ^ 7) << '\n'; // 101 ^ 111 = 010
 
     return 0;
