@@ -52,3 +52,5 @@ int main(){
 
     return 0;
 }
+// Notes
+// (a ⊕ x) + (b ⊕ x) = a ⊕ b
